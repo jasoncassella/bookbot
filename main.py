@@ -5,7 +5,6 @@ def main():
     word_count = get_word_count(text)
     letter_count = get_letter_count(text)
 
-
     print(f'{word_count} words were found in the document')
     print(letter_count)
     
@@ -22,7 +21,5 @@ def get_letter_count(text):
         else:
             char_dict[char] = 1
     return char_dict
-
-
 
 main()
